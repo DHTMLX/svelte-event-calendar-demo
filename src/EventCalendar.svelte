@@ -16,4 +16,3 @@
 </script>
 
 <div bind:this={container} style="width: 100%; height: 100%;"></div>
-
