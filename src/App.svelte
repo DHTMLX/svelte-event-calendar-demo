@@ -1,6 +1,6 @@
 <script>
-  import Calendar from "./Calendar.svelte";
-  import { getData } from "./data.js";
+	import EventCalendar from "./EventCalendar.svelte";
+	import { getData } from "./data.js";
 </script>
 
-<Calendar events={getData()} date={new Date(2021, 5, 10)} />
+<EventCalendar events={getData()} date={new Date(2024, 5, 10)} />
