@@ -6,11 +6,13 @@
 
 ```
 yarn 
-yarn start
+yarn dev
 ```
 
 ## Useful links
 
+- **[Online demo](https://replit.com/@dhtmlx/dhtmlx-event-calendar-with-svelte)**
+- [More demos about the DHTMLX Event Calendar functionality](https://snippet.dhtmlx.com/nh2g0j2o?tag=event_calendar)
 - [Technical support ](https://forum.dhtmlx.com/c/event-calendar)
 - [Online  documentation](https://docs.dhtmlx.com/eventcalendar/)
 
