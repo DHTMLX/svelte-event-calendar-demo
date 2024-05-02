@@ -8,7 +8,7 @@
 
 ```
 yarn 
-yarn dev
+yarn start
 ```
 
 or
