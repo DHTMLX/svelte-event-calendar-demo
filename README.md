@@ -6,10 +6,8 @@
 
 ## How to start
 
-Clone the repository or download files.
-
 ```
-yarn
+yarn 
 yarn start
 ```
 
