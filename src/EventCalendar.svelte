@@ -1,5 +1,5 @@
 <script>
-    import { onMount } from "svelte";
+    import { onMount, onDestroy } from "svelte";
     
     import { EventCalendar } from "@dhx/trial-eventcalendar";
     import "@dhx/trial-eventcalendar/dist/event-calendar.css";
@@ -9,9 +9,12 @@
 
     let container;
     onMount(() => {
-        new EventCalendar(container, {
+        const eventCalendarInstance = new EventCalendar(container, {
             events, date
         })
+    });
+    onDestroy(async () => {
+        eventCalendarInstance.destructor();
     });
 </script>
 
